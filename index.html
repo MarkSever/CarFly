@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarFly</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="/img/favicon.ico">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <nav class="header__nav">
+                <ul class="header__nav-list list-reset">
+                    <li class="header__nav-element">
+                        <a href="#" class="header__nav-element-link">Услуги</a>
+                    </li>
+                    <li class="header__nav-element">
+                        <a href="#" class="header__nav-element-link">О парковке</a>
+                    </li>
+                    <li class="header__nav-element">
+                        <a href="#" class="header__nav-element-link">Где мы?</a>
+                    </li>
+                    <li class="header__nav-element">
+                        <a href="#" class="header__nav-element-link">Камеры</a>
+                    </li>
+                    <div class="header__nav-call">
+                        <a class="hedaer__nav-call-link" href="tel:+7 (921) 000-00-00">+7 (921) 000-00-00</a>
+                        <a class="hedaer__nav-call-link" href="tel:8 (800) 555-35-35">8 (800) 555-35-35</a>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+        <div class="booking__container">
+
+            <div class="booking-days">
+                <div class="test">
+                    <h1 class="booking__title">Парковка в&nbsp;Пулково с&nbsp;трансфером в&nbsp;аэропорт</h1>
+                    <ul class="booking-days__list list-reset">
+                        <li class="booking-days__list-item">
+                            <p class="booking-days__list-item-days">1 - 2 дня</p>
+                            <p class="booking-days__list-item-price">350 рублей</p>
+                        </li>
+                        <li class="booking-days__list-item">
+                            <p class="booking-days__list-item-days">3 - 7 дней</p>
+                            <p class="booking-days__list-item-price">250 рублей</p>
+                        </li>
+                        <li class="booking-days__list-item">
+                            <p class="booking-days__list-item-days">7 - 14 дней</p>
+                            <p class="booking-days__list-item-price">200 рублей</p>
+                        </li>
+                    </ul>
+                </div>
+                <div><img class="booking-days__img" src="/img/booking-car-people.svg" alt="car-people"></div>
+            </div>
+            <div class="booking-input__container">
+                <div class="input__container">
+                    <div class="input__container-title"><span class="input__title">Дата и время въезда (вылет - 3 часа)</span></div>
+                    <div class="input-field">
+                        <div class="input-field__icon ">
+                            <input type="date" class="input-field-date">
+                        </div>
+                        <div class="input-field__icon input-field__icon-time">
+                            <input type="time" class="input-field-time" value="00:00">
+                        </div>
+                    </div>
+                </div>
+                <div class="input__container">
+                    <div class="input__container-title"><span class="input__title">Дата и время выезда (прилет + 1 час)</span></div>
+                    <div class="input-field">
+                        <div class="input-field__icon">
+                            <input type="date" class="input-field-date">
+                        </div>
+                        <div class="input-field__icon input-field__icon-time">
+                            <input type="time" class="input-field-time" value="00:00">
+                        </div>
+                    </div>
+                </div>
+                <button class="input__container-btn btn-reset">Найти место</button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="services">
+            <h2 class="services__title">Услуги</h2>
+            <div class="services__tabs">
+                <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+                <label class="services__tabs-btn1" for="tab-btn-1">Бесплатный трансфер</label>
+                <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+                <label class="services__tabs-btn2" for="tab-btn-2">Комфортное оформление</label>
+                <input type="radio" name="tab-btn" id="tab-btn-3" value="">
+                <label class="services__tabs-btn" for="tab-btn-3">Дополнительно</label>
+                <div class="transfer" id="content-1">
+                    <div class="transfer__container">
+                        <img class="transfer__bg" src="/img/transfer__bg.png" alt="">
+                        <ul class="transfer__list">
+                            <li class="transfer__list-item">Следите онлайн за местонахождением автобуса!</li>
+                            <li class="transfer__list-item">Вежливый водитель, 5 минут в пути, запись происходящегов салоне для решения конфликтных ситуаций
+                            </li>
+                            <li class="transfer__list-item">При необходимости устанавливается детское кресло в автомобиль трансфера
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="comfort" id="content-2">
+                    <div class="comfort__container">
+                        <img class="comfort__bg" src="/img/comfort__bg.png" alt="">
+                        <ul class="comfort__list">
+                            <li class="comfort__list-item">Забронируйте и оплатите место заранее и сэкономьте время на оформление на месте!</li>
+                            <li class="comfort__list-item">Комфортный офис с туалетом, питьевой водой и Wi-Fi</li>
+                            <li class="comfort__list-item">Заключаем договор ответственного хранения</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="additional" id="content-3">
+                    <div class="additional__container">
+                        <img class="additional__bg" src="/img/additional__bg.png" alt="">
+                        <ul class="additional__list">
+                            <li class="additional__list-item">Упаковка багажа. Один чемодан - бесплатно! Каждый последующий чемодан - 200 рублей</li>
+                            <li class="additional__list-item">Спустило колесо? Не беда - поможем накачать!</li>
+                            <li class="additional__list-item">Сел аккумулятор? Не беда - поможем с запуском автомобиля</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="parking">
+            <h2 class="parking__title">О парковке</h2>
+            <div class="parking__container">
+                <ul class="parking__container-list list-reset">
+                    <li class="parking__container-list-item parking__li-1">
+                        <p class="list-item__title">500</p>
+                        <p class="list-item__descr">машиномест</p>
+                        <svg width="70" height="51" viewbox="0 0 70 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M58.3484 46.0869V47.9323C58.3484 49.6199 59.7212 51 61.3987 51H65.5488C67.2263 51 68.5991 49.6199 68.5991 47.9323V45.2613C69.2574 44.3746 70 42.563 70 38.9032C70 33.7045 70 25.4608 70 22.2489C70 19.4657 66.6705 17.2901 61.4649 15.7211C61.3416 15.2787 61.2183 14.8499 61.094 14.4312H68.056C70.564 14.4312 69.6291 9.72331 66.2733 9.72331H62.8531V12.4499H60.4693C56.6438 1.06276 51.664 3.05176e-05 35 3.05176e-05C18.336 3.05176e-05 13.3562 1.06276 9.5307 12.4499H7.14689V9.72331H3.72668C0.370855 9.72331 -0.56399 14.4312 1.94404 14.4312H8.90596C8.78174 14.8499 8.65842 15.2787 8.5351 15.7211C3.32953 17.2901 0 19.4657 0 22.2489C0 25.4608 0 33.7045 0 38.9032C0 42.563 0.742616 44.3746 1.40091 45.2613V47.9323C1.40091 49.6199 2.7737 51 4.45117 51H8.6013C10.2788 51 11.6516 49.6199 11.6516 47.9323V46.0869C27.2175 46.0869 42.7825 46.0869 58.3484 46.0869ZM61.5402 34.8466C58.9487 35.5444 54.0124 36.4767 50.6394 34.5829C46.8356 32.4484 52.4057 26.5965 61.1892 26.3019C64.6775 26.1869 64.838 33.959 61.5402 34.8466ZM8.45984 34.8466C11.0513 35.5444 15.9867 36.4767 19.3606 34.5829C23.1644 32.4484 17.5943 26.5965 8.80984 26.3019C5.32254 26.1869 5.16205 33.959 8.45984 34.8466ZM13.1114 16.9234H57.1443C56.71 15.2933 53.8447 4.91047 46.1547 4.88402C45.4356 4.88219 25.0096 4.88493 24.2361 4.88493C18.5509 4.88493 15.0364 9.69503 13.1114 16.9234Z" fill="#579D45"/>
+                            </svg>
+
+                    </li>
+                    <li class="parking__container-list-item parking__li-2">
+                        <p class="list-item__title">Вежливый</p>
+                        <p class="list-item__descr">персонал</p>
+                        <svg width="80" height="54" viewbox="0 0 80 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M39.9998 22.2027C45.9126 22.2027 50.7059 17.4017 50.7059 11.4794C50.7059 5.55702 45.9126 0.756012 39.9998 0.756012C34.087 0.756012 29.2937 5.55702 29.2937 11.4794C29.2937 17.4017 34.087 22.2027 39.9998 22.2027Z" fill="#579D45"/>
+                            <path d="M64.0414 21.9205C68.4501 21.9205 72.024 18.3408 72.024 13.925C72.024 9.50926 68.4501 5.92957 64.0414 5.92957C59.6328 5.92957 56.0588 9.50926 56.0588 13.925C56.0588 18.3408 59.6328 21.9205 64.0414 21.9205Z" fill="#579D45"/>
+                            <path d="M79.9132 40.8275C78.3166 30.7626 73.0575 24.7425 64.0419 24.7425C60.5671 24.7425 57.7497 25.589 55.4019 27.2822C55.6836 27.5644 55.9653 27.8466 56.341 28.1288C60.1914 32.1736 62.821 38.0056 64.0419 45.4367C64.0419 45.7188 64.1358 46.001 64.1358 46.1892C72.8697 46.2832 80.5705 44.7782 79.9132 40.8275Z" fill="#579D45"/>
+                            <path d="M15.9582 21.9205C20.3669 21.9205 23.9408 18.3408 23.9408 13.925C23.9408 9.50926 20.3669 5.92957 15.9582 5.92957C11.5495 5.92957 7.97559 9.50926 7.97559 13.925C7.97559 18.3408 11.5495 21.9205 15.9582 21.9205Z" fill="#579D45"/>
+                            <path d="M23.753 28.1288C24.0347 27.8466 24.3165 27.5644 24.5982 27.2822C22.2504 25.589 19.3391 24.7425 15.9582 24.7425C7.03646 24.7425 1.77733 30.6685 0.0868973 40.8275C-0.570494 44.7782 7.22429 46.2832 15.9582 46.2832C15.9582 46.001 15.9582 45.7188 16.0521 45.5307C17.1791 38.0996 19.8086 32.2676 23.753 28.1288Z" fill="#579D45"/>
+                            <path d="M40.0001 53.244C28.261 53.244 17.9306 51.1746 18.7758 46.0011C21.0297 32.4558 28.0732 24.5544 40.0001 24.5544C51.9271 24.5544 58.9706 32.5498 61.2245 46.0011C62.0697 51.1746 51.7393 53.244 40.0001 53.244Z" fill="#579D45"/>
+                            </svg>
+                    </li>
+                    <li class="parking__container-list-item parking__li-3">
+                        <p class="list-item__title">Ответственность</p>
+                        <p class="list-item__descr">застрахована в страховой компании</p>
+                        <svg width="44" height="59" viewbox="0 0 44 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M38.5 19.6704C41.525 19.6704 44 22.1707 44 25.289V53.3815C44 56.4717 41.525 59 38.5 59H5.5C2.4475 59 0 56.4717 0 53.3815V25.289C0 22.1707 2.4475 19.6704 5.5 19.6704H8.25V14.0519C8.25 6.29838 14.41 3.05176e-05 22 3.05176e-05C29.59 3.05176e-05 35.75 6.29838 35.75 14.0519V19.6704H38.5ZM22 5.62416C17.435 5.62416 13.75 9.38856 13.75 14.0519V19.6704H30.25V14.0519C30.25 9.38856 26.565 5.62416 22 5.62416ZM19.25 50.5723L36.4375 33.0425L32.56 29.0814L19.25 42.6502L12.1275 35.4023L8.25 39.3352L19.25 50.5723Z" fill="#579D45"/>
+                            </svg>
+
+                    </li>
+                    <li class="parking__container-list-item parking__li-4">
+                        <p class="list-item__title">Безопасность</p>
+                        <p class="list-item__descr">на объекте обеспечивается<br>Федеральной службой<br>войск национальной<br>гвардии России</p>
+                        <svg width="50" height="60" viewbox="0 0 50 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25 9.15527e-05L0 10.9092V27.2728C0 42.4092 10.6667 56.5637 25 60.0001C39.3333 56.5637 50 42.4092 50 27.2728V10.9092L25 9.15527e-05ZM33.5556 40.9092L25 35.8637L16.4722 40.9092L18.7222 31.3637L11.1944 24.9819L21.1389 24.1365L25 15.1365L28.8611 24.1092L38.8056 24.9546L31.2778 31.3637L33.5556 40.9092Z" fill="#579D45"/>
+                            </svg>
+
+                    </li>
+                    <li class="parking__container-list-item parking__li-5">
+                        <p class="list-item__title">Более 20</p>
+                        <p class="list-item__descr">камер и периметральная охранная сигнализация</p>
+                        <svg width="49" height="60" viewbox="0 0 49 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.5 0C30.1856 0 35.6383 2.21249 39.6586 6.15076C43.6789 10.089 45.9375 15.4305 45.9375 21C45.9375 26.5695 43.6789 31.911 39.6586 35.8492C35.6383 39.7875 30.1856 42 24.5 42C18.8144 42 13.3617 39.7875 9.3414 35.8492C5.32109 31.911 3.0625 26.5695 3.0625 21C3.0625 15.4305 5.32109 10.089 9.3414 6.15076C13.3617 2.21249 18.8144 0 24.5 0ZM24.5 6C20.4389 6 16.5441 7.58035 13.6724 10.3934C10.8008 13.2064 9.1875 17.0218 9.1875 21C9.1875 24.9782 10.8008 28.7936 13.6724 31.6066C16.5441 34.4196 20.4389 36 24.5 36C26.5109 36 28.502 35.612 30.3598 34.8582C32.2176 34.1044 33.9057 32.9995 35.3276 31.6066C36.7495 30.2137 37.8774 28.5601 38.6469 26.7402C39.4164 24.9204 39.8125 22.9698 39.8125 21C39.8125 17.0218 38.1992 13.2064 35.3276 10.3934C32.4559 7.58035 28.5611 6 24.5 6ZM24.5 12C26.9367 12 29.2736 12.9482 30.9965 14.636C32.7195 16.3239 33.6875 18.6131 33.6875 21C33.6875 23.3869 32.7195 25.6761 30.9965 27.364C29.2736 29.0518 26.9367 30 24.5 30C22.0633 30 19.7264 29.0518 18.0035 27.364C16.2805 25.6761 15.3125 23.3869 15.3125 21C15.3125 18.6131 16.2805 16.3239 18.0035 14.636C19.7264 12.9482 22.0633 12 24.5 12ZM6.125 60C4.50055 60 2.94263 59.3679 1.79397 58.2426C0.64531 57.1174 0 55.5913 0 54C0 52.86 0.30625 51.81 0.888125 50.91L6.46188 41.43C11.3006 45.51 17.6094 48 24.5 48C31.3906 48 37.6994 45.51 42.5381 41.43L48.1119 50.91C48.6937 51.81 49 52.86 49 54C49 55.5913 48.3547 57.1174 47.206 58.2426C46.0574 59.3679 44.4995 60 42.875 60H6.125Z" fill="#579D45"/>
+                            </svg>
+
+                    </li>
+                    <li class="parking__container-list-item">
+                        <p class="list-item__title parking__li__title-6">Забронируйте<br>место на парковке</p>
+                        <button class="list-item__btn btn-reset">Забронировать</button>
+                    </li>
+                </ul>
+                <div class="parking__photo">
+                    <div class="parking__photo-online">
+                        <div class="parking__photo-online-container">
+                            <button class="parking__photo-online-btn btn-reset">
+                                <svg width="84" height="84" viewbox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M53.7636 39.1493C55.3818 40.3247 55.4185 42.7244 53.8371 43.9487L38.5865 55.7556C36.615 57.282 33.75 55.8768 33.75 53.3835L33.75 30.4994C33.75 28.0484 36.5299 26.6317 38.513 28.0721L53.7636 39.1493Z" fill="#579D45"/>
+                                    <path d="M8.5 42C8.5 23.5084 23.5084 8.5 42 8.5C60.4916 8.5 75.5 23.5084 75.5 42C75.5 60.4916 60.4916 75.5 42 75.5C23.5084 75.5 8.5 60.4916 8.5 42ZM33.5 29.75V54.25C33.5 54.8536 33.6681 55.4452 33.9854 55.9586C34.3027 56.4721 34.7567 56.887 35.2966 57.1569C35.8364 57.4268 36.4407 57.5411 37.0419 57.4869C37.6428 57.4327 38.2168 57.2123 38.6996 56.8503C38.6997 56.8502 38.6999 56.8501 38.7 56.85L55.0378 44.6053C55.0391 44.6044 55.0404 44.6034 55.0417 44.6024C56.7911 43.3028 56.7911 40.6972 55.0417 39.3976C55.0404 39.3966 55.0391 39.3956 55.0378 39.3947L38.7 27.15C38.6999 27.1499 38.6997 27.1498 38.6996 27.1497C38.2168 26.7877 37.6428 26.5673 37.0419 26.5131C36.4407 26.4589 35.8364 26.5732 35.2966 26.8431C34.7567 27.113 34.3027 27.5279 33.9854 28.0414C33.6681 28.5548 33.5 29.1464 33.5 29.75Z" stroke="#579D45" stroke-width="3"/>
+                                </svg>   
+                            </button>
+                            <p class="parking__photo-online-text">Онлайн<br>трансляция с парковки</p>
+                        </div>
+                    </div>
+                    <ul class="parking__photo-list list-reset">
+                        <li class="parking__photo-list-item"><img src="img/parking__photo__bg-2.png" alt=""></li>
+                        <li class="parking__photo-list-item"><img src="/img/parking__photo__bg-3.png" alt=""></li>
+                        <li class="parking__photo-list-item"><img src="/img/parking__photo__bg-4.png" alt=""></li>
+                        <li class="parking__photo-list-item"><img src="/img/parking__photo__bg-5.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="parking__photo-bottom">
+                    <ul class="parking__photo-bottom-list list-reset">
+                        <li class="parking__photo-bottom-list-item"><img src="/img/parking__photo__bg-6.png" alt=""></li>
+                        <li class="parking__photo-bottom-list-item"><img src="/img/parking__photo__bg-7.png" alt=""></li>
+                        <li class="parking__photo-bottom-list-item"><img src="/img/parking__photo__bg-8.png" alt=""></li>
+                        <li class="parking__photo-bottom-list-item"><img src="/img/parking__photo__bg-9.png" alt=""></li>
+                    </ul>
+                </div>
+                <button class="parking__btn-more btn-reset">
+                    <span class="parking__btn-more-text">Еще фото</span>
+                </button>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="contacts__container">
+                <h2 class="contacts__title">Где мы<br>находимся</h2>
+                <ul class="contacts__container-list list-reset">
+                    <li class="contacts__container-list-item">
+                        <span class="contacts__container-list-item__descr">Адрес</span>
+                        <span class="contacts__container-list-item__text">Пулковское ш., д. 41, лит. ЗИ, Санкт-Петербург</span>
+                    </li>
+                    <li class="contacts__container-list-item">
+                        <span class="contacts__container-list-item__descr">Координаты</span>
+                        <span class="contacts__container-list-item__text">55.58804713; 37.21705019</span>
+                    </li>
+                    <li class="contacts__container-list-item">
+                        <a class="contacts__container-list-item__tel tel_1" href="tel:+7 (921) 000-00-00">+7 (921) 000-00-00</a>
+                        <a class="contacts__container-list-item__tel tel_2" href="tel:8 (800) 555-35-35">8 (800) 555-35-35</a>
+                    </li>
+                </ul>
+                <button class="contacts__container-btn btn-reset">Найти в Навигаторе</button>
+
+            </div>
+            <div class="contacts__map" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/aeroport_pulkovo/1423973195/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Аэропорт Пулково</a><a href="https://yandex.ru/maps/2/saint-petersburg/category/airport/184108111/?utm_medium=mapframe&utm_source=maps"
+                    style="color:#eee;font-size:12px;position:absolute;top:14px;">Аэропорт в Санкт‑Петербурге</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUJZSfdGD" width="840" height="605" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe></div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__call">
+            <a class="footer__call-tel footer__tel-1" href="tel:+7 (921) 000-00-00">+7 (921) 000-00-00</a>
+            <a class="footer__call-tel footer__tel-2" href="tel:8 (800) 555-35-35">8 (800) 555-35-35</a>
+        </div>
+        <div class="footer__policy">
+            <p class="footer__policy-text">© Carfly 2020</p>
+            <a class="footer__policy-link" href="#">Политика конфиденциальности</a>
+        </div>
+    </footer>
+</body>
+
+</html>
